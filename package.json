@@ -1,0 +1,26 @@
+{
+  "name": "rivano-md",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp Bot RIVANO-MD menggunakan Baileys",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "rivano-md",
+    "termux"
+  ],
+  "author": "RIVANO",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
